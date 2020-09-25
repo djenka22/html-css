@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Picerija Fuego</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="script/proveraporudzbine.js"></script>
+</head>
+
+
+<body>
+	<header>
+    	<h1>Picerija FUEGO</h1>
+    	<p id="zaglavljeredispod">Stevana Nemanje 9, 11300 Smederevo</p>
+    	<p>Kontakt:064 0747404 (09:00-23:45)</p>
+ 	</header>
+<div class="main">
+	<div><a href="https://www.google.com/maps/uv?pb=!1s0x475093db6ab045c9%3A0x203e155dec854d46!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOAqDkYd1Hr-ROGg9c-mcM2tmKEyTnkraDnerol%3Dw239-h160-k-no!5zcGljZXJpamEgZnVlZ28gLSBHb29nbGUg0L_RgNC10YLRgNCw0LPQsA!15sCgIgAQ&imagekey=!1e10!2sAF1QipOAqDkYd1Hr-ROGg9c-mcM2tmKEyTnkraDnerol&hl=sr&sa=X&ved=2ahUKEwjZtJy25PzrAhWtzoUKHVVQAekQoiowCnoECBsQBg" target="_blank">
+		<img src="images/fuego.jpeg" alt="Kako doći do picerije">
+		</a>
+	</div>
+	<div class="a"><img alt="" src="images/pica1.jpeg"></div>
+	<div class="a"><img alt="" src="images/pica2.jpeg"></div>
+	<div class="a"><img alt="" src="images/pica3.jpeg"></div>
+
+	<div class="b">Dodjite u piceriju Fuego. Budite naš gost jednom- ostaćete naš gost zauvek. Nalazimo se u centru grada, a pošteđeni smo buke. Picerija Vam nudi vrhunske specijalitete (paste, salate, hrane od mesa, deserte), dobru uslugu i prijatnu atmosferu. Našu hranu možete dobiti i na kućnu adresu. Vaše je da samo pozovete dobro poznat broj.
+	Dostava- 3km besplatno, za ostalo pitati.
+	</div>
+</div>
+<div class="forma">
+	<h3>Naručite picu</h3>
+<div class="container">
+  <img src="images/pica1.jpeg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Naručivanje do 22 časova</div>
+  </div>
+</div>
+<div>&nbsp;&nbsp;</div>
+	<form name='porudzbina' onSubmit="return proveraForme();">
+<ul>
+<li><label for="ime">Ime i prezime:</label></li>
+<input type="text" name="ime" size="50" />
+<li><label for="adresa">Adresa:</label></li>
+<input type="text" name="adresa" size="50" />
+<li><label for="telefon">Telefon:</label></li>
+<input type="text" name="telefon" size="50" /><p></p>
+<li><label for="pica">Pica:</label>
+<select name="pica"><p></p>
+<option selected="" value="Default">(Izaberite picu)</option>
+<option value="KAP">Kaprićoza</option>
+<option value="MAR">Margarita</option>
+<option value="SRB">Srbijana</option>
+<option value="VEG">Vegeterijana</option>
+<option value="PRS">Pršuto</option>
+<option value="FUE">Fuego</option>
+</select>
+<label for="kolicina">Količina: </label><input type="text" name="kolicina" value="1" size="4" /></li><p></p>
+<li><label for="komentar">Komentar:</label></li>
+<textarea name="komentar" id="komentar" rows="4" cols="38"></textarea><p></p>
+<input type="submit" class="dugme" name="submit" value="Submit" />&nbsp;
+</ul>
+</form>
+
+</div>
+
+
+	 	<footer>
+		<p>Autor: Nikola Rusimović</p>
+ 		<p><a href="http://www.fon.bg.ac.rs/" target="_blank">http://www.fon.bg.ac.rs/</a></p>
+	</footer>
+	 	
+
+</body>
+
+</html>
